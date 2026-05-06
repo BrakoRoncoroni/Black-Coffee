@@ -260,9 +260,67 @@ footer {
   gap: 20px;
 }
 
-/* MOBILE */
+/* =====================
+   RESPONSIVE - MOBILE
+   ===================== */
+
 @media (max-width: 768px) {
+
+  /* NAV */
+  .nav-container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  /* HERO */
+  .hero {
+    height: 35vh;
+  }
+
   .hero h2 {
     font-size: 24px;
+  }
+
+  /* SERVICES */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* GALLERY */
+  .images img {
+    width: 90%;
+    height: 200px;
+  }
+
+  /* ENDING (mapa + contacto) */
+  .ending {
+    grid-template-columns: 1fr;
+  }
+
+  /* MAPA */
+  .location iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  /* WHATSAPP BOX */
+  .whatsapp-box {
+    width: 95%;
+  }
+
+  /* MENU CTA */
+  .menu-cta h2 {
+    font-size: 1.8rem;
   }
 }
