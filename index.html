@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Black Coffee</title>
+  <meta name="description" content="Descripción breve del negocio" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+<header class="header">
+  <div class="nav-container">
+    
+    <a href="index.html" class="brand">
+      <img src="img/blacklogo.jpg" alt="Black Coffee logo" class="headlogo">
+      <span>BLACK COFFEE</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#about">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+      <a href="src/BlackCoffee_Menu.pdf" target="_blank" class="btn-nav">
+        Ver menú
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>BLACK COFFEE</h2>
+      <p>EL CAFE EN MAR DEL PLATA</p>
+    </div>
+  </section>
+
+    <!-- SERVICIOS / MENU -->
+  <section class="services">
+    <h2>RECARGATE EN BLACK</h2>
+
+    <div class="cards">
+      <div class="card">
+        <img class="imgcards" src="img/here.webp" alt="">
+        <h3>VISITANOS</h3>
+        <p>Veni a conocer el verdadero café de Mar del Plata</p>
+      </div>
+
+      <div class="card">
+        <img class="imgcards" src="img/takeaway.webp" alt="">
+        <h3>TAKE AWAY</h3>
+        <p>Llevate Black Coffee a donde quieras</p>
+      </div>
+
+      <div class="card">
+        <img class="imgcards" src="img/dely.webp" alt="">
+        <h3>DELIVERY</h3>
+        <p>Pedi Black Coffee desde tu casa</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-cta">
+  <div class="menu-cta-content">
+    <h2>Conocé nuestro menú</h2>
+    <p>Descubrí todas nuestras opciones de café y acompañamientos</p>
+    <a href="src/BlackCoffee_Menu.pdf" target="_blank" class="btn">
+      Ver menú
+    </a>
+  </div>
+</section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section class="about">
+    <h2>SOBRE NOSOTROS</h2>
+    <p>
+     Nacimos en Mar del Plata con la idea de crear un espacio donde cada detalle importe, desde la selección de los granos hasta la forma en que se sirve cada taza. 
+     <br>
+     Nos enfocamos en ofrecer café de calidad, acompañado de opciones simples y ricas para cualquier momento del día.
+     <br>
+     Nuestro lugar está pensado para que puedas frenar un rato, disfrutar, trabajar o compartir, siempre con un ambiente cómodo y cercano.
+    </p>
+  </section>
+
+
+
+  <!-- GALERIA -->
+  <section class="gallery">
+    <h2>GALERIA</h2>
+    <div class="images">
+      <img src="img/coffeeone.webp" alt="">
+      <img src="img/outisde.webp" alt="">
+      <img src="img/tatoo.webp" alt="">
+    </div>
+  </section>
+
+
+<div class="ending">
+<!-- UBICACION -->
+  <section class="location">
+    <h2>Dónde estamos</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9989140981656!2d-57.55554540000001!3d-38.0004858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584df1053254719%3A0xd5bdc9a138819c63!2sBlack%20Coffee!5e0!3m2!1sen!2sar!4v1778076087886!5m2!1sen!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- CONTACTO -->
+<section id="contacto" class="contact">
+  <h2>Contacto</h2>
+
+  <p>📍Dirección: Av. Colon 3145, Mar del Plata</p>
+  <p>🕒Horario: 8:00 - 20:00</p>
+
+<div class="whatsapp-box">
+  <h2>Tu pedido por WhatsApp</h2>
+  <input type="text" id="nombre" placeholder="Nombre" />
+  <input type="text" id="direccion" placeholder="Dirección / Take Away" />
+  <textarea id="mensaje" placeholder="Hacé tu pedido por WhatsApp"></textarea>
+  <button onclick="enviarWhatsApp()">Enviar</button>
+</div>
+</section>
+
+</div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 | Black Coffee - Mar del Plata, Argentina</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

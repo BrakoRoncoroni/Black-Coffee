@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  color: #111;
+  background: #fff;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  padding: 0px 30px;
+  background: #000000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.headlogo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  opacity: 0.6;
+}
+
+/* Botón menú más pro */
+.btn-nav {
+  padding: 8px 18px;
+  background: #111;
+  color: #fff !important;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.btn-nav:hover {
+  background: #333;
+}
+
+.header a:last-child {
+  justify-self: end;
+}
+
+
+.logo {
+  font-size: 20px;
+}
+.headlogo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* BUTTON */
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+/* HERO */
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("/img/hero.png") no-repeat center center/cover;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero a {
+  align-self: center;
+  
+}
+
+/* SECTIONS */
+section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.menu-cta {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.menu-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.menu-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.menu-cta .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.menu-cta .btn:hover {
+  background: #ddd;
+}
+
+/* SERVICES */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+}
+.imgcards{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+/* GALLERY */
+.images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* MAP */
+.location iframe {
+  width: 90%;
+  height: 100%;
+  border: none;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Contacto por WhatsApp directo */
+.whatsapp-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  height: 100%;
+}
+
+.whatsapp-box input {
+  padding: 8px;
+  font-size: 0.90rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.whatsapp-box textarea {
+  padding: 8px;
+  font-size: 0.90rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 120px;
+  resize: none;
+}
+
+.whatsapp-box button {
+  padding: 12px 20px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.whatsapp-box button:hover {
+  background: #233028;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.ending{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 24px;
+  }
+}
