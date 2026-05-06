@@ -96,7 +96,7 @@ body {
 /* HERO */
 .hero {
   background:
-    url("/img/hero.png") no-repeat center center/cover,
+    url('img/hero.jpg') no-repeat center center/cover,
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
   height: 45vh;
   display: flex;
